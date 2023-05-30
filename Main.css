@@ -1,0 +1,441 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  width: auto;
+  margin: 0;
+  background-image: url("img/Background_4x2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+}
+
+header {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 7em;
+}
+
+h1{
+  text-shadow: 2px 2px black;
+  font-size: 6vh;
+}
+
+h1 span{
+  color: #F0BF27;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #494949;
+  opacity: 85%;
+  border-radius: 5px 5px 0 0;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: flex;
+  flex: 1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: center;
+}
+
+nav ul li a {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  font-size: 3vh;
+}
+
+main {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+#petasse{
+  background-color: rgba(100,100,100,0.85);
+  border-radius: 0 0 5px 5px;
+}
+
+section {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  border-radius: 0 0 5px 5px;
+}
+
+#about>div{
+  display: flex;
+}
+
+#contact {
+  flex-direction: column;
+  color: rgb(27, 27, 27);
+}
+
+#contact h2{
+  font-size: 3vh;
+  margin: 10px;
+  text-align: center;
+}
+
+#infos{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#infos>div{
+  width: 30%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Message{
+  width: 80%;
+}
+
+.Envoyer{
+  display: flex;
+  justify-content: center;
+}
+
+#Reseaux{
+  display: flex;
+  flex-direction: column;
+}
+
+#logos{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#Reseaux a img{
+  height: auto;
+  width: 4vh;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#AutreContacts{
+  display: flex;
+  justify-content: space-around;
+}
+
+#AutreContacts>div{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+}
+
+#AutreContacts h3{
+  font-size: 2.5vh;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+#Mail p{
+  margin-left: 20px;
+}
+
+#about>div>div{
+  width: 30%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#portfolio{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffffc0;
+}
+
+#portfolio>div{
+  display: flex;
+  width: 100%;
+}
+
+.projets>*{
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projets{
+  display: none;
+  flex-direction: column;
+  
+}
+
+.droite{
+  margin-left: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+div img {
+  width: 100%;
+  height: auto;
+}
+
+.imageProjet img{
+  width: 25vh;
+  height: auto;
+  margin-left: 15px;
+}
+
+#menuLanguages{
+  display: flex;
+  flex-direction: column;
+  background-color: #494949;
+  opacity: 85%;
+  border-radius: 0 5px 5px 5px;
+  align-items: center;
+  height: fit-content;
+}
+
+#menuLanguages a{
+  width: 100%;
+  display: flex;
+  height: 9vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#LogoJava img{
+  width: 8vh;
+  height: 8vh;
+}
+
+#LogoPython img{
+  width: 8vh;
+  height: 8vh;
+}
+
+#LogoCsharp img{
+  width: 9vh;
+  height: 9vh;
+}
+
+#LogoSQL img{
+  width: 7vh;
+  height: 7vh;
+}
+
+.pdf{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pdf a img{
+  width: 5vh;
+  margin-right: 5px;
+  height: auto;
+}
+
+.pdf a{
+  color: #ffffffc0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pdf a:hover{
+  color: black;
+}
+
+#menuLanguages a:hover{
+  background-color: #646464;
+  border-radius: 0 5px 5px 0;
+}
+
+#menuLanguages a:last-of-type{
+  border-radius: 0 5px 5px 5px;
+}
+
+a:hover{
+  color: #fff;
+}
+
+footer {
+  bottom: 0;
+}
+
+div.active {
+  display: flex;
+  animation: fade-in 0.5s ease-in-out;
+}
+
+section.active {
+  display: flex;
+  animation: fade-in 0.5s ease-in-out;
+}
+
+nav ul li.active {
+  background-color: #646464;
+  border-radius: 5px 5px 0 0;
+}
+
+hr{
+  align-self: flex-end;
+  width: 50%;
+  border: 2px solid #F0BF27;
+  margin: 10px;
+  border-radius: 2px;
+}
+
+section>hr{
+  margin-top: 20px;
+  align-self: center;
+  width: 90%;
+}
+
+#interets hr{
+  width: 70%;
+  align-self: flex-start;
+}
+
+#interets p:nth-child(1){
+  font-size: 2.5vh;
+  margin: 10px;
+  color: #ffffffc0;
+}
+
+#interets p:nth-child(3){
+  font-size: 2vh;
+  margin: 10px;
+  color: #ffffffc0;
+}
+
+#blaze{
+  font-size: 3.5vh;
+  margin: 10px;
+  color: #fff;
+  text-align: end;
+}
+
+#presentation{
+  font-size: 2vh;
+  margin: 10px;
+  color: #ffffffc0;
+  text-align: end;
+}
+
+#ligne2 p{
+  font-size: 2vh;
+  margin: 20px;
+  color: #ffffffc0;
+}
+
+#ligne2{
+  border-radius: 0, 0, 5px, 5px;
+  margin: 15px;
+  margin-top: 0;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-container img {
+  height: auto;
+}
+
+.logo-container img:nth-child(1){
+  width: 17%;
+}
+
+.logo-container img:nth-child(2){
+  width: 10%;
+}
+
+.logo-container img:nth-child(3){
+  width: 17%;
+}
+
+.logo-container img:nth-child(4){
+  width: 20%;
+}
+
+.logo-container img:nth-child(5){
+  width: 12%;
+}
+
+#contact{
+  color: #ffffffc0;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 85%;
+    transform: translateY(0);
+  }
+}
+
+/*Quand le nombre de pixels de large est de 1180 ou moins, la largeur de #main passe à 100% avec une animation de 0.5s*/
+@media screen and (max-width: 1280px) {
+  main {
+    width: 100%;
+    animation: fade-in 0.5s ease-in-out;
+  }
+}
