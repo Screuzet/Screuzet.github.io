@@ -132,6 +132,7 @@ form {
 #logos{
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
 }
 
@@ -209,13 +210,13 @@ input[type=submit]:hover {
 .projets>*{
   margin: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .projets{
   display: none;
   flex-direction: column;
-  
+  width: 100%;
 }
 
 .droite{
@@ -235,14 +236,39 @@ div img {
   margin-left: 15px;
 }
 
+#JeuCsharp .imageProjet img{
+  width: 43vh;
+  height: auto;
+  margin-left: 15px;
+}
+
+#Odomo .imageProjet img{
+  width: 40vh;
+  height: auto;
+  margin-left: 15px;
+}
+
+#Moon .imageProjet img{
+  width: 40vh;
+  height: auto;
+  margin-left: 15px;
+}
+
+#BD .imageProjet img{
+  width: 43vh;
+  height: auto;
+  margin-left: 15px;
+}
+
 #menuLanguages{
   display: flex;
   flex-direction: column;
-  background-color: #494949;
+  background-color: #555555;
   opacity: 85%;
   border-radius: 0 5px 5px 5px;
   align-items: center;
   height: fit-content;
+  width: 77px;
 }
 
 #menuLanguages a{
@@ -251,6 +277,7 @@ div img {
   height: 9vh;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 
 #LogoJava img{
@@ -258,7 +285,7 @@ div img {
   height: 8vh;
 }
 
-#LogoPython img{
+#LogoWEB img{
   width: 8vh;
   height: 8vh;
 }
@@ -275,8 +302,6 @@ div img {
 
 .pdf{
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .pdf a img{
@@ -297,8 +322,20 @@ div img {
 }
 
 #menuLanguages a:hover{
-  background-color: #646464;
+  background-color: #3b3b3b;
   border-radius: 0 5px 5px 0;
+  position: relative;
+  width: 200px;
+  left: 61.5px;
+}
+
+#menuLanguages a p{
+  display : none;
+  margin-right: 10px;
+}
+
+#menuLanguages a:hover p{
+  display: flex;
 }
 
 #menuLanguages a:last-of-type{
@@ -359,7 +396,7 @@ section>hr{
   color: #ffffffc0;
 }
 
-#blaze{
+#nomPremon{
   font-size: 3.5vh;
   margin: 10px;
   color: #fff;
