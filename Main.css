@@ -265,7 +265,7 @@ div img {
   flex-direction: column;
   background-color: #555555;
   opacity: 85%;
-  border-radius: 0 5px 5px 5px;
+  border-radius: 0 5px 5px 0px;
   align-items: center;
   height: fit-content;
   width: 77px;
@@ -332,6 +332,8 @@ div img {
 #menuLanguages a p{
   display : none;
   margin-right: 10px;
+  margin: 0;
+  padding: 0;
 }
 
 #menuLanguages a:hover p{
