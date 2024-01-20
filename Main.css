@@ -167,6 +167,7 @@ input[type=submit]:hover {
 
 #AutreContacts{
   display: flex;
+  margin-top: 20px;
   justify-content: space-around;
 }
 
@@ -183,7 +184,7 @@ input[type=submit]:hover {
   margin-left: 20px;
 }
 
-#Mail p{
+#AutreContacts div p{
   margin-left: 20px;
 }
 
@@ -202,13 +203,39 @@ input[type=submit]:hover {
   color: #ffffffc0;
 }
 
+#portfolio h2{
+  margin-bottom: 5px  ;
+}
+
+#portfolio>hr{
+  width: 80%;
+  margin: 10px;
+  position: relative;
+  left: 20px;
+}
+
+#portfolio>hr{
+  width: 80%;
+  margin: 10px;
+  position: relative;
+  left: 20px;
+}
+
 #portfolio>div{
   display: flex;
   width: 100%;
 }
 
-.projets>*{
+.projets>hr{
+  align-self: center;
+  width: 85%;
   margin: 10px;
+  position: relative;
+  right: 10px;
+}
+
+.projets>*{
+  margin: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -268,16 +295,39 @@ div img {
   border-radius: 0 5px 5px 0px;
   align-items: center;
   height: fit-content;
-  width: 77px;
+  width: 70px;
 }
 
 #menuLanguages a{
-  width: 100%;
+  width: auto;
   display: flex;
   height: 9vh;
   align-items: center;
   justify-content: center;
   text-decoration: none;
+}
+
+#menuLanguages a p{
+  display : none;
+  margin: 0;
+  margin-right: 10px;
+  padding: 0;
+}
+
+#menuLanguages a:hover p{
+  display: flex;
+}
+
+#menuLanguages a:last-of-type{
+  border-radius: 0 5px 5px 5px;
+}
+
+#menuLanguages a:hover{
+  background-color: #3b3b3b;
+  border-radius: 0 5px 5px 0;
+  left: 65px;
+  width: 200px;
+  position: relative;
 }
 
 #LogoJava img{
@@ -319,29 +369,6 @@ div img {
 
 .pdf a:hover{
   color: black;
-}
-
-#menuLanguages a:hover{
-  background-color: #3b3b3b;
-  border-radius: 0 5px 5px 0;
-  position: relative;
-  width: 200px;
-  left: 61.5px;
-}
-
-#menuLanguages a p{
-  display : none;
-  margin-right: 10px;
-  margin: 0;
-  padding: 0;
-}
-
-#menuLanguages a:hover p{
-  display: flex;
-}
-
-#menuLanguages a:last-of-type{
-  border-radius: 0 5px 5px 5px;
 }
 
 a:hover{
@@ -459,6 +486,10 @@ section>hr{
   color: #ffffffc0;
 }
 
+#contact hr{
+  margin-top: 30px;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -471,7 +502,6 @@ section>hr{
   }
 }
 
-/*Quand le nombre de pixels de large est de 1180 ou moins, la largeur de #main passe à 100% avec une animation de 0.5s*/
 @media screen and (max-width: 1280px) {
   main {
     width: 100%;
