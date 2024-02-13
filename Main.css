@@ -246,6 +246,10 @@ input[type=submit]:hover {
   width: 100%;
 }
 
+#ProjetsWEB{
+  margin-bottom: 10px;
+}
+
 .droite{
   margin-left: 10px;
   flex-direction: column;
@@ -281,6 +285,12 @@ div img {
   margin-left: 15px;
 }
 
+#Symfony .imageProjet img{
+  width: 45vh;
+  height: auto;
+  margin-left: 15px;
+}
+
 #BD .imageProjet img{
   width: 43vh;
   height: auto;
@@ -296,6 +306,7 @@ div img {
   align-items: center;
   height: fit-content;
   width: 70px;
+  z-index: 1;
 }
 
 #menuLanguages a{
